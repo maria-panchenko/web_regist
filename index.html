@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ПИНЫ-443</title>
+    <link type="text/css" rel="stylesheet" href="{{url_for('static', filename = 'css/main.css')}}">
+</head>
+<body class="background">
+    <body>
+        <form method="POST" action="{{ url_for('form') }}">
+            <p class="question">Логин</p>
+            <input class="name" type="text" name="login" placeholder="Введите логин" onchange='eventForm(this.value)'>
+            <p class="question">Пароль</p>
+            <input class="name" type="password" name="password" placeholder="Введите пароль" onchange='eventForm(this.value)'>
+            <button class="buttonstyle">Войти</button>
+        </form>
+    </body>
+</body>
+</html>

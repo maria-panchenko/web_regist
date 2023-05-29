@@ -1,0 +1,23 @@
+.background {
+    background-color: #FFB6C1;
+    width:1200px;
+    height:500px;
+}
+.name {
+    margin-left: 510px;
+    border-radius: 5px;
+}
+.question {
+    font-family: 'Arial Black';
+    margin-left: 520px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.buttonstyle {
+    font-family: 'Book antiqua';
+    background-color: #FFEBCD;
+    margin-left: 550px;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
